@@ -1,0 +1,95 @@
+body{
+    background-image: url(../img/pattern-background-desktop.svg);
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    color: lightslategray;
+}
+.container{
+    width: 50%;
+    margin:0 auto;
+    background-color: white;
+    padding: 0px;
+    border-radius: 20px;
+    justify-content: center;
+}
+.attribution{
+    margin-top: 50px;
+}
+section{
+    margin-bottom: 25px;   
+}
+img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+.text{
+   
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    font-size: 25px;
+    color: black;
+}
+.plan-box{
+    
+    width: 45%;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.change-box{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+.order a{
+    text-decoration: none;
+    color:lightslategray;
+
+}
+.order a:hover{
+    color: blueviolet;
+}
+.last-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+strong{
+    color: black;
+}
+.change-box a{
+    margin-top: 20px;
+}
+.plan-box strong{
+    margin-bottom: 0px;
+}
+.change-box img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 0px;
+
+}
+.change-box a:hover{
+    color: lightslategray;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    width: 70%;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: blueviolet;
+}
